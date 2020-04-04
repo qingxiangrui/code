@@ -15,9 +15,22 @@ public class MyTest {
 //            System.out.println(i);
 //
 //        }
-        DeleteCoveredRange deleteCoveredRange = new DeleteCoveredRange();
-        int[][] intervals = {{1,4},{3,6},{2,8}};
-        int i = deleteCoveredRange.removeCoveredIntervals(intervals);
-        System.out.println(i);
+
+//        DeleteCoveredRange deleteCoveredRange = new DeleteCoveredRange();
+//        int[][] intervals = {{1,4},{3,6},{2,8}};
+//        int i = deleteCoveredRange.removeCoveredIntervals(intervals);
+//        System.out.println(i);
+
+//        DuplicateElements duplicateElements = new DuplicateElements();
+//        int[] data = new int[]{-1,2147483647};
+//        boolean b = duplicateElements.containsNearbyAlmostDuplicate(data, 1, 2147483647);
+//        System.out.println(b);
+        ExamRoom room = new ExamRoom(10);
+        room.seat();
+        room.seat();
+        room.seat();
+        room.seat();
+        room.leave(4);
+        room.seat();
     }
 }
