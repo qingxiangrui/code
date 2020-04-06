@@ -1,4 +1,4 @@
-package LineSweep;
+package OrderedMap;
 
 
 import java.util.HashMap;
