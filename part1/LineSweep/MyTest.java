@@ -1,7 +1,5 @@
-package LineSweep;
+package part1.LineSweep;
 
-
-import Unknown.LFU;
 
 public class MyTest {
     public static void main(String[] args) {

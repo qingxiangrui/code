@@ -1,9 +1,7 @@
-package OrderedMap;
+package part1.OrderedMap;
 
 import java.util.ArrayList;
-import java.util.HashSet;
 import java.util.List;
-import java.util.Set;
 
 public class GenerateParenthesis {
 //    public List<String> generateParenthesis(int n) {

@@ -1,6 +1,4 @@
-package OrderedMap;
-
-import java.util.TreeMap;
+package part1.OrderedMap;
 
 /**
  * 爱丽丝有一手（hand）由整数数组给定的牌。

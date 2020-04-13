@@ -1,4 +1,4 @@
-//package OrderedMap;
+//package part1.OrderedMap;
 //
 //import java.util.TreeMap;
 //
@@ -137,10 +137,9 @@
 // * MyCalendarTwo obj = new MyCalendarTwo();
 // * boolean param_1 = obj.book(start,end);
 // */
-package OrderedMap;
+package part1.OrderedMap;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.TreeMap;
 
 public class MyCalendarTwo {
     List<int[]> calendar;

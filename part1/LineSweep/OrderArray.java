@@ -1,4 +1,4 @@
-package LineSweep;
+package part1.LineSweep;
 /*
 * 给你一个整数数组 nums，将该数组升序排列。
 *

@@ -1,4 +1,4 @@
-package SlidingWindow;
+package part1.SlidingWindow;
 
 public class MaxSlidingWindow {
     public int[] maxSlidingWindow(int[] nums, int k) {

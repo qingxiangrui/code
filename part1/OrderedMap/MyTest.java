@@ -1,7 +1,5 @@
-package OrderedMap;
+package part1.OrderedMap;
 
-
-import java.util.List;
 
 public class MyTest {
     public static void main(String[] args) {
@@ -28,10 +26,15 @@ public class MyTest {
 //        System.out.println(calendarTwo.book(25,39));
 //        System.out.println(calendarTwo.book(6,19));
 
-        GenerateParenthesis generateParenthesis = new GenerateParenthesis();
-        List<String> list = generateParenthesis.generateParenthesis(3);
-        for (String s : list) {
-            System.out.println(s);
-        }
+//        GenerateParenthesis generateParenthesis = new GenerateParenthesis();
+//        List<String> list = generateParenthesis.generateParenthesis(3);
+//        for (String s : list) {
+//            System.out.println(s);
+//        }
+
+        String s = "[[],[],[],[],[46],[],[],[],[],[868],[],[],[],[525],[],[],[],[],[123],[646],[],[229],[],[],[],[871],[],[],[285],[],[],[],[],[45],[140],[837],[545],[],[],[],[],[],[],[561],[237],[],[633],[98],[806],[717],[],[],[186],[],[],[],[],[],[],[268],[],[29],[],[],[],[],[866],[],[239],[3],[850],[],[],[],[],[],[],[],[310],[],[674],[770],[],[525],[],[425],[],[],[720],[],[],[],[373],[411],[],[831],[],[765],[701],[]]";
+                s=s.replace('[','{');
+                s=s.replace(']','}');
+        System.out.println(s);
     }
 }

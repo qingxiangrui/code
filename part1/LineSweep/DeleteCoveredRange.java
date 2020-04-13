@@ -1,4 +1,4 @@
-package LineSweep;
+package part1.LineSweep;
 
 import java.util.Arrays;
 

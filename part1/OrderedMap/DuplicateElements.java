@@ -1,4 +1,4 @@
-package OrderedMap;
+package part1.OrderedMap;
 
 
 import java.util.HashMap;
