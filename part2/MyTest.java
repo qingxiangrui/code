@@ -18,12 +18,24 @@ public class MyTest {
 //            System.out.println(anInt);
 //        }
 
-        KthSmallest smallest  = new KthSmallest();
-        int[][] ints = new int[][] {
-                {1,  5,  9},
-                {10, 11, 13},
-                {12, 13, 15}
-        };
-        smallest.kthSmallest(ints,8);
+//        KthSmallest smallest  = new KthSmallest();
+//        int[][] ints = new int[][] {
+//                {1,  5,  9},
+//                {10, 11, 13},
+//                {12, 13, 15}
+//        };
+//        smallest.kthSmallest(ints,8);
+
+//        FindFrequentTreeSum findFrequentTreeSum = new FindFrequentTreeSum();
+//        TreeNode n1 = new TreeNode(5);
+//        TreeNode n2 = new TreeNode(2);
+//        TreeNode n3 = new TreeNode(-3);
+//        n1.left = n2;
+//        n1.right = n3;
+//
+//        int[] res = findFrequentTreeSum.findFrequentTreeSum(n1);
+//        for (int re : res) {
+//            System.out.println(re);
+//        }
     }
 }
